@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: inherit;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle-red {
+    height: 10vh;
+    width: 10vh;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circle-invisible {
+    display: none;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circle-blue {
+    height: 10vh;
+    width: 10vh;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
